@@ -16,8 +16,8 @@ public class Main {
 		p.add(ic.importarArchivo("Ruben.txt", 10));
 
 		Cata cata = new Cata("I CATA DE CERVEZA IMPRESENTABLE", p);
-		System.out.println(cata.showResults());
-		
+		Resultados res = new Resultados(cata);
+		System.out.println(res.showAllResults());
 	}
 
 }
